@@ -1,0 +1,348 @@
+body {
+    background: #D0C3B0;
+    height: 960px;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    display: block;
+    width: 280px;
+    color: #55b618;
+    background-color: transparent;
+    font-family: 'Pacifico', arial;
+    font-size: 55px;
+    font-weight: 300;
+    padding: 0 20px 0 20px;
+    margin: 70px auto 5px;
+    border-radius: 20px;
+    border: 0px solid red;
+
+}
+
+h2 {
+    float: left;
+    font-family: 'Pacifico', cursive;
+    color: #002618;
+    font-size: 25px;
+    display: block;
+    position: absolute;
+    padding: 10px -10px 0 0;
+
+}
+
+h5.rules {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    height: 20px;
+    padding: 5px 5px 0 0px;
+    text-align: left;
+}
+
+h5.rules a {
+    padding-left: 5px;
+    line-height: 25px;
+    font-family: 'Roboto', cursive;
+    color: #009688;
+}
+
+.game {
+    width: 600px;
+    height: 600px;
+    margin: 0px auto;
+    border-radius: 40px;
+
+}
+
+.field {
+    position: relative;
+    height: 500px;
+    border-radius: 40px 40px 0 0;
+    border: 1px solid transparent;
+}
+
+li {
+    height: 100px;
+}
+
+
+ul.attempts {
+    padding: 20px 0 0 20px;
+}
+
+ul.attempts li {
+    margin-bottom: -40px;
+}
+
+div.attempt i, div.attempt tt {
+    display: inline-block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 15px;
+}
+
+div.attempt tt {
+    display: none;
+}
+
+div.secrets .secret {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: black;
+    margin: 0px 0px 0px 15px;
+}
+
+div.secret:nth-child(5) {
+    display: none;
+}
+
+.secrets {
+    width: 350px;
+    margin: 5px auto 5px;
+    padding: 0 0 0 46px;
+}
+
+div.result {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 0px 70px 0px 30px;
+    padding: 0px 5px 5px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #444444;
+}
+
+div.result b, div.result em {
+    float: left;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 8px 0px 0px 8px;
+    background-color: #aaaaaa;
+    border: 3px solid #444444;
+}
+
+div.result em {
+    display: none;
+    position: relative;
+    top: -28px;
+    left: 9px;
+}
+
+
+div.field_buttons {
+    width: 600px;
+}
+
+.field_buttons .buttons {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 18px;
+
+}
+
+.field_buttons .buttons input {
+    margin: 0 8px;
+    justify-content: space-around;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: transparent;
+}
+
+.field_buttons .buttons input.b_pink, .field_buttons .buttons input.b_dark {
+    display: none;
+}
+
+
+.n-4-6 div.secret:nth-child(5),
+.n-4-6 .field_buttons .buttons input:nth-child(7),
+.n-4-6 .field_buttons .buttons input:nth-child(8),
+.n-4-6 div.attempt tt, .n-4-6 div.result em {
+    display: none;
+}
+
+.n-4-6 h5.rules {
+    right: 35px;
+}
+
+.n-4-6 .field_buttons .buttons input {
+    width: 60px;
+    height: 60px;
+    margin: 0 8px;
+}
+
+.n-4-6 div.result {
+    margin-right: 70px;
+}
+
+.n-4-6 div.secrets .secret {
+    width: 50px;
+    height: 50px;
+}
+
+.n-5-8 {
+    background: linear-gradient(to top, #512DA8, #00796B);
+    transition: 5s;
+}
+
+.n-5-8 div.secret:nth-child(5),
+.n-5-8 .field_buttons .buttons input:nth-child(7),
+.n-5-8 .field_buttons .buttons input:nth-child(8) {
+    display: inline-block;
+}
+
+.n-5-8 div.attempt tt, .n-5-8 div.result em {
+    display: block;
+}
+
+.n-5-8 h5.rules {
+    right: 15px;
+}
+
+.n-5-8 input.sample {
+    display: none;
+}
+
+.n-5-8 .field_buttons .buttons input {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.n-5-8 div.result {
+    margin-right: 60px;
+}
+
+.n-5-8 div.secrets .secret {
+    width: 45px;
+    height: 45px;
+}
+
+
+.secrets {
+    opacity: 0;
+}
+
+
+.game {
+    background-color: #455658;
+    border: 1px solid #444444;
+}
+
+.field {
+    border-bottom: 2px solid #557668;
+    background: linear-gradient(to top, #556668, #DDDCCD);
+}
+
+div.attempt i, div.attempt tt {
+    background: #B6B6B6;
+    border: 1px solid #33695B;
+}
+
+div.result {
+    border: 2px solid #444444;
+}
+
+div.result b, div.result em {
+    background-color: #CDDCb9;
+    border: 3px solid #444444;
+}
+
+.field_buttons input.b_cancel {
+    color: black;
+    background-color: #607D8B;
+}
+
+h1.rai {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 20px;
+    background: "#388E3C";
+    background: -moz-linear-gradient(top,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 255, 0, 1) 15%,
+    rgba(0, 255, 0, 1) 30%,
+    rgba(0, 255, 255, 1) 50%,
+    rgba(0, 0, 255, 1) 65%,
+    rgba(255, 0, 255, 1) 80%,
+    rgba(255, 0, 0, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom,
+    color-stop(0%, rgba(255, 0, 0, 1)),
+    color-stop(15%, rgba(255, 255, 0, 1)),
+    color-stop(30%, rgba(0, 255, 0, 1)),
+    color-stop(50%, rgba(0, 255, 255, 1)),
+    color-stop(65%, rgba(0, 0, 255, 1)),
+    color-stop(80%, rgba(255, 0, 255, 1)),
+    color-stop(100%, rgba(255, 0, 0, 1)));
+}
+
+.b_white {
+    background-color: #fff;
+}
+
+.b_lilac {
+    background-color: #9C27B0;
+}
+
+.b_yellow {
+    background-color: #FFC107;
+}
+
+.b_green {
+    background-color: #388E3C;
+}
+
+.b_red {
+    background-color: #D32F2F;
+}
+
+.b_blue {
+    background-color: #1976D2;
+}
+
+.b_pink {
+    background-color: #FF90a1;
+}
+
+.b_dark {
+    background-color: #202F8F;
+}
+
+.b_orange{
+    background-color: #FF8C00;
+}
+
+.ra {
+    width: 300px;
+    border: 5px solid red;
+}
+
+.fonc {
+    padding-left: 40px;
+    display: none !important;
+}
