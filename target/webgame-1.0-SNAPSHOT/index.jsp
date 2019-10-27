@@ -23,7 +23,7 @@
     <title>Player Info</title>
 </head>
 <body>
-<h1>Player Info</h1>
+<h1>Enter Player Info</h1>
 
 <form method="POST" action="/mastermind">
 
@@ -36,8 +36,8 @@
         <label for="last">Last</label>
         <input type="text" name="last" id="last" value="" class="form-control"/>
     </div>
-
-    <button type="submit" class="btn btn-success">Play Game</button>
+    <br>
+    <button type="submit" class="btn btn-success">Play MasterMind Game</button>
 </form>
 
 </body>

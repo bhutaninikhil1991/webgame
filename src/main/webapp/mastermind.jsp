@@ -73,7 +73,7 @@
 
     <div class="field_buttons">
         <div class="buttons">
-            <form action="/processguess" name="form_color">
+            <form id="form" name="form_color">
                 <input type="button" class="bcol b_orange" name="inp_color" value="1" onclick="FunColor(this)"/>
                 <input type="button" class="bcol b_lilac" name="inp_color" value="2" onclick="FunColor(this)"/>
                 <input type="button" class="bcol b_yellow" name="inp_color" value="3" onclick="FunColor(this)"/>

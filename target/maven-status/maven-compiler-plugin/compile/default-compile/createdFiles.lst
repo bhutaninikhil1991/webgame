@@ -4,6 +4,7 @@ com/example/appengine/java8/GameInstance.class
 com/example/appengine/java8/GuessingGame.class
 com/example/appengine/java8/Game.class
 com/example/appengine/java8/Mastermind.class
+com/example/appengine/java8/ProcessGuessServlet.class
 com/example/appengine/java8/GameRulesServlet.class
 com/example/appengine/java8/Mastermind$1.class
 com/example/appengine/java8/GamesRecord.class
