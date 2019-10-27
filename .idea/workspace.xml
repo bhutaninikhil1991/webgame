@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea4a83f6-14f2-47fa-ba50-241794ac1fa2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ea4a83f6-14f2-47fa-ba50-241794ac1fa2" name="Default Changelist" comment="game first draft">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/appengine/java8/MasterMindServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/appengine/java8/MasterMindServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/mastermind.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/mastermind.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT/WEB-INF/appengine-generated/local_db.bin" beforeDir="false" afterPath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT/WEB-INF/appengine-generated/local_db.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT/mastermind.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT/mastermind.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -185,8 +175,16 @@
       <workItem from="1572136781115" duration="27000" />
       <workItem from="1572136818731" duration="2444000" />
       <workItem from="1572193995577" duration="1091000" />
-      <workItem from="1572195360854" duration="154000" />
+      <workItem from="1572195360854" duration="267000" />
     </task>
+    <task id="LOCAL-00001" summary="game first draft">
+      <created>1572195730708</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572195730708</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +203,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="game first draft" />
+    <option name="LAST_COMMIT_MESSAGE" value="game first draft" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -220,12 +222,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/appengine/java8/MasterMindServlet.java</url>
-          <line>13</line>
+          <line>11</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/appengine/java8/MasterMindServlet.java</url>
-          <line>18</line>
+          <line>16</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
