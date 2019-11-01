@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4a83f6-14f2-47fa-ba50-241794ac1fa2" name="Default Changelist" comment="game first draft">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/appengine/java8/MasterMindServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/appengine/java8/MasterMindServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/appengine/java8/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/appengine/java8/GameInstance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/appengine/java8/GamesRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/appengine/java8/GuessingGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/appengine/java8/Mastermind.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/appengine/java8/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT/WEB-INF/appengine-generated/local_db.bin" beforeDir="false" afterPath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT/WEB-INF/appengine-generated/local_db.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT/WEB-INF/classes/com/example/appengine/java8/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT/WEB-INF/classes/com/example/appengine/java8/GameInstance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT/WEB-INF/classes/com/example/appengine/java8/GamesRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT/WEB-INF/classes/com/example/appengine/java8/GuessingGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT/WEB-INF/classes/com/example/appengine/java8/MasterMindServlet$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT/WEB-INF/classes/com/example/appengine/java8/MasterMindServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT/WEB-INF/classes/com/example/appengine/java8/MasterMindServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT/WEB-INF/classes/com/example/appengine/java8/Mastermind$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT/WEB-INF/classes/com/example/appengine/java8/Mastermind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webgame-1.0-SNAPSHOT/WEB-INF/classes/com/example/appengine/java8/Player.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,16 +63,16 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/example/appengine/java8" />
+      <recent name="$PROJECT_DIR$/src/main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.appengine.java8" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/appengine/java8" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -210,11 +230,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/appengine/java8/GamesRecord.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/appengine/java8/GameRulesServlet.java</url>
           <line>13</line>
