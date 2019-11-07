@@ -13,15 +13,6 @@ public class MasterMindServlet extends HttpServlet {
 
     @Override
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //get player info
-        String first = request.getParameter("first");
-        String last = request.getParameter("last");
-
-        HttpSession session = request.getSession();
-
-        //save player info in session
-        session.setAttribute("name", last + ", " + first);
-
-        request.getRequestDispatcher("/mastermind.jsp").forward(request, response);
+        request.getRequestDispatcher("/index.jsp").forward(request, response);
     }
 }
